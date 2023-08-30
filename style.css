@@ -56,7 +56,7 @@ body{
     margin: 30px;
     
 }
-.content #num{
+.content .num{
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -65,7 +65,7 @@ body{
     border: 1px solid var(--Medium-Grey);
     cursor: pointer;
 }
-.content #num:hover{
+.content .num:hover{
     background-color: var(--Orange);
 }
 #subBtn{
@@ -124,3 +124,8 @@ li{
         text-align: center;
     }
 
+@media screen and(max-width:400px) {
+    #main-container{
+        width: 200px;
+    }
+}
